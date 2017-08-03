@@ -1,0 +1,72 @@
+/*
+bitchassholla - web based mp3 streaming audio management application.
+Copyright (C) 2002 Nathan Garretson
+
+This file is part of bitchassholla.
+
+bitchassholla is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+bitchassholla is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with bitchassholla; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+Contact: Visit the "contact" section of http://www.bitchassholla.com. 
+*/
+	
+body {
+	background:white;
+	font:12pt Helvetica;
+}
+
+A:hover { color:gray; }
+
+.link {
+	color:blue;
+}
+	
+.tab {
+	background-color:#ffffee;
+	border-color:#999999; border:2px; border-style:outset; border-bottom-style:none;
+	width:90px; margin:0px;
+	font-size:10pt; text-align:center; line-height:165%;
+	position:absolute;
+}
+
+.panel {
+	background-color:#ffffee;
+	border-color:#999999; border:2px; border-style:outset;
+	width:600px; height:400px; left:0px; top:48px; margin:0px; padding:6px;
+	position:absolute;
+}
+
+.window {
+	background-color:white;
+	border-color:#999999; border:2px; border-style:inset;
+	width:470px; height:290px; left:10px; top:50px; margin:0px; padding:6px;
+	position:absolute; overflow:scroll;
+}
+
+.dir {
+	font-size:10pt; font-weight:bold; color:blue;
+	text-decoration:none;
+}
+
+.file {
+	font-size:8pt; color:black;
+	text-decoration:none;
+}
+
+.sbox {
+	font-size:9pt;
+	width:580px; left:10px; top:375px;
+	position:absolute;
+}
+

@@ -1,0 +1,36 @@
+README: bitchassholla 0.1.1
+
+Description:
+bitchassholla (BAH) is a web application that allows users to easily
+create playlists and manage thier own streaming audio stations. BAH 
+is built using PHP4, Javascript, and XHTML which acts as a frontend
+to the Icecast streaming audio server.
+
+Info:
+http://www.bitchassholla.com
+
+Notes:
+bitchassholla is developed on an OpenBSD machine, with Apache 1.3.x 
+and PHP 4.2.x. As far as I know, bitchassholla will not work on windows
+machines. I hope to in the future support windows, but until then, its
+just your fault that you use windows as a web server. You should know
+better.
+
+Important Files:
+README:
+	This document.
+
+INSTALL:
+	Installation instructions.
+
+COPYING:
+	GNU GPL License.
+
+CREDITS:
+	People who help with or work on bitchassholla.
+
+BAH.conf.php:
+	bitchassholla config file, needs to be changed.
+
+
+updated 10-07-2002

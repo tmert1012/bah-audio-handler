@@ -1,0 +1,7 @@
+CHANGELOG
+
+bitchassholla-0.1.1
+- fixed some speeling errors
+- removed old song keying, caused path to be printed twice when writing playlists
+- fixed "no song selected" poop out in launch area
+- fixed no path in view function

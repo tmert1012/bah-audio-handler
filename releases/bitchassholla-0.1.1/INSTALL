@@ -1,0 +1,34 @@
+INSTALL: bitchassholla 0.1.1
+
+Installing
+Before using BAH, you need to download and install all four of the following, in 
+this suggested order. If there is a later version than listed, get that version. 
+Links to these download pages are found on the download page. 
+
+"the basic four" 
+  	Apache 1.3.26 
+	PHP 4.2.2 
+	Icecast 1.3.12 
+	Ices 0.2.3 
+	
+Once you have these installed, make sure that you can parse PHP documents, 
+easiest way make a small PHP program and see if anything happens. Second make 
+sure you can start Icecast and attach an Ices stream to it. This is easily 
+accomplished assuming you make an icecast.conf config file (use the icecast 
+manual) and make a simple text file of mp3s to play. If both of these work, then 
+you are ready to install BAH. 
+
+Installing "the basic four" applications is far more difficult than installing 
+BAH simply because there is no compiling to use BAH. Simply unpack the version 
+you downloaded, edit the BAH.conf.php file with the paths plus some other 
+parameters, create some directories then copy the files over to your htdocs dir. 
+
+
+Install Steps
+
+  Unpack BAH with "tar zxvf bitchassholla-0.x.tar.gz". 
+  Edit BAH.conf.php. 
+  Create "playlists" and "m3u" inside your WEBDIR, needs to be owned by user nobody. 
+  Create "pids" dir inside your BASEDIR, needs to be owned by user nobody. 
+  Move all .php, .js, and .css files to your WEBDIR. 
+

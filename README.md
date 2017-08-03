@@ -9,6 +9,7 @@ Some goals were to be multiuser and for users to be able to share their playlist
 
 The project is no longer maintained and I added it here for posterity and to document a pretty good idea before it's time. It wasn't until Spotify that I saw what I was going for with bah.
 
-![bah](https://raw.githubusercontent.com/tmert1012/bah-audio-handler/master/screenshots/bah2%20screenshot%201%20.jpg)
+![bah main](https://raw.githubusercontent.com/tmert1012/bah-audio-handler/master/screenshots/bah2%20screenshot%201%20.jpg)
+![bah login](https://raw.githubusercontent.com/tmert1012/bah-audio-handler/master/screenshots/bah2.1.1%20screenshot%201.jpg)
 
  
